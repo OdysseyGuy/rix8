@@ -1,0 +1,5 @@
+site_name: RIX8 Documentation
+site_url: https://odysseyguy.github.io/rix8/
+theme:
+  name: readthedocs
+  highlightjs: true
