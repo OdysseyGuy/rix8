@@ -5,7 +5,6 @@ RIX8 uses a modified Harvard architecture: instructions are fetched from externa
 ## Sub-pages
 
 - [Registers](registers.md)
-- [Instruction Format](instruction-format.md)
 - [Instructions](instructions.md)
 - [Addressing Modes](addressing-modes.md)
 - [Flags](flags.md)
