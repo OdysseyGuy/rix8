@@ -1,3 +1,8 @@
+---
+title: RIX8 CPU
+description: RIX8 is a compact 8-bit CPU with a custom 16-bit instruction set, SPI Flash instruction fetch, and UART, designed for a 3-stage in-order pipeline.
+---
+
 # RIX8
 
 RIX8 is a compact 8-bit CPU with a custom 16-bit fixed-length instruction set architecture, designed as a complete system-on-chip.

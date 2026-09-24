@@ -1,5 +1,26 @@
 site_name: The RIX8 Project
 site_url: https://rikseth.com/rix8/
+site_description: RIX8 is a custom 8-bit CPU project featuring a complete instruction set architecture, assembler, and Verilog implementation.
 theme:
   name: readthedocs
   highlightjs: true
+  hljs_languages:
+    - x86asm
+  custom_dir: overrides
+nav:
+  - Home: index.md
+  - ISA:
+      - Overview: isa/index.md
+      - Registers: isa/registers.md
+      - Instruction Format: isa/instruction-format.md
+      - Instructions: isa/instructions.md
+      - Addressing Modes: isa/addressing-modes.md
+      - Flags: isa/flags.md
+  - Architecture:
+      - Overview: architecture/index.md
+      - Memory Map: architecture/memory-map.md
+      - Peripherals: architecture/peripherals.md
+  - Development:
+      - Assembler: development/assembler.md
+  - Examples:
+      - Blink: examples/blink.md
