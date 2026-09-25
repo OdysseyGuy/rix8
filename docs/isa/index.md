@@ -29,7 +29,7 @@ RIX8 instructions fall into four classes:
 
 # Principle
 
-RIX8 uses a modified Harvard architecture: instructions are fetched from external SPI Flash through a dedicated prefetch buffer, while data accesses go to an on-chip scratchpad and memory-mapped peripherals. The two paths share the external SPI controller, so the design sits between strict Harvard and a unified von Neumann model.
+RIX8 uses a modified Harvard architecture. Instructions are fetched from external SPI Flash, while data accesses go to external SPI SRAM and memory-mapped peripherals. Both paths share the same SPI controller, placing the design between strict Harvard and a unified von Neumann model.
 
 ## ISA Components
 
